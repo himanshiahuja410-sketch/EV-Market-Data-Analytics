@@ -1,0 +1,21 @@
+vehicle_id,manufacturer,model,vehicle_category,year,annual_sales,battery_technology,battery_capacity_kwh,driving_range_km,customer_rating,manufacturing_country,price
+1,Tesla,Model 3,Sedan,2023,120000,NMC,60,438,4.4,United States,38990
+2,Tesla,Model Y,SUV,2023,210000,NMC,75,480,4.5,United States,43990
+3,BYD,Atto 3,SUV,2023,95000,LFP,60,420,4.2,China,32990
+4,BYD,Dolphin,Hatchback,2023,110000,LFP,45,340,4.1,China,21990
+5,Hyundai,Ioniq 5,SUV,2023,70000,NMC,77,480,4.3,South Korea,41800
+6,Kia,EV6,SUV,2023,52000,NMC,77,500,4.2,South Korea,42600
+7,Nissan,Leaf,Hatchback,2022,61000,NMC,40,240,4.0,Japan,28140
+8,Volkswagen,ID.4,SUV,2023,82000,NMC,77,420,4.0,Germany,38995
+9,Chevrolet,Bolt EV,Hatchback,2022,44000,NMC,66,417,4.1,United States,26500
+10,MG,ZS EV,SUV,2023,36000,NMC,51,320,3.9,China,30990
+11,Tesla,Model S,Sedan,2022,29000,NCA,100,600,4.4,United States,74990
+12,BYD,Seal,Sedan,2023,48000,LFP,82,570,4.3,China,36990
+13,BMW,i4,Sedan,2023,31000,NMC,81,490,4.2,Germany,52200
+14,Renault,Zoe,Hatchback,2022,27000,NMC,52,395,4.0,France,33990
+15,Tata Motors,Nexon EV,SUV,2023,54000,LFP,40,325,4.1,India,17500
+16,Mahindra,XUV400,SUV,2023,18000,LFP,39,375,3.9,India,16000
+17,Volvo,EX30,SUV,2024,22000,NMC,69,460,4.3,Sweden,34950
+18,Polestar,2,Sedan,2023,19000,NMC,78,450,4.0,China,49900
+19,Lucid,Air,Sedan,2023,8000,NCA,112,830,4.5,United States,77400
+20,Dacia,Spring,Hatchback,2023,33000,LFP,27,230,3.8,China,21000

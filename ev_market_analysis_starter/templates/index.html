@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Electric Vehicle Market Intelligence — an interactive data analytics project using Tableau, SQL and Flask.">
+  <title>EV Market Intelligence | Analytics Portfolio</title>
+  <link rel="preconnect" href="https://public.tableau.com">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="topbar"><a class="brand" href="#"><span class="brand-mark">E</span><span>EV<span class="muted">/</span>INTELLIGENCE</span></a><span class="top-label">DATA ANALYTICS · BUSINESS INTELLIGENCE</span><a class="top-link" href="#dashboard">Explore dashboard ↗</a></div>
+  <header class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="pulse"></span> MARKET INSIGHTS / 01</div>
+      <h1>Driving the future<br>with <span>better data.</span></h1>
+      <p class="hero-desc">An interactive look at the electric vehicle landscape — exploring market performance, battery technology, vehicle range and manufacturer trends.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#dashboard">Explore dashboard <span>↓</span></a><a class="btn btn-ghost" href="#project">About the project ↗</a></div>
+      <div class="hero-meta"><span>TABLEAU PUBLIC</span><i></i><span>SQL ANALYTICS</span><i></i><span>FLASK WEB APP</span></div>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="orb-core"><span>EV</span><small>INSIGHTS</small></div><div class="float-tag tag-top">01 / PERFORMANCE</div><div class="float-tag tag-bottom">DATA → DECISIONS</div><div class="art-line line-one"></div><div class="art-line line-two"></div></div>
+  </header>
+  <main>
+    <section class="section-intro" id="project"><div><div class="section-kicker">THE PROJECT</div><h2>One market. <span>Multiple perspectives.</span></h2></div><p>Designed for market strategists, business intelligence teams and sustainable mobility researchers who need clear, data-led views of the EV ecosystem.</p></section>
+    <section class="feature-grid">
+      <article class="feature-card"><div class="feature-icon">↗</div><div class="feature-no">01 / MARKET</div><h3>Market performance</h3><p>Compare sales across vehicle categories and manufacturers to understand competitive positioning.</p></article>
+      <article class="feature-card"><div class="feature-icon">⌁</div><div class="feature-no">02 / TECHNOLOGY</div><h3>Battery & range</h3><p>Explore battery technology adoption, capacity and driving-range differences across segments.</p></article>
+      <article class="feature-card"><div class="feature-icon">◎</div><div class="feature-no">03 / CUSTOMER</div><h3>Customer perspective</h3><p>Review available customer ratings and manufacturing geography to support product decisions.</p></article>
+    </section>
+    <section class="dashboard-section" id="dashboard">
+      <div class="dashboard-heading"><div><div class="section-kicker">INTERACTIVE EXPERIENCE / 01</div><h2>EV market <span>performance</span></h2><p>Use the controls inside the dashboard to explore the available views.</p></div><a class="text-link" href="https://public.tableau.com/app/profile/himanshi.ahuja1809/viz/Book1_17930371170050/EVMarketPerformaceDashboard?publish=yes" target="_blank" rel="noopener">Open in Tableau Public ↗</a></div>
+      <div class="viz-shell"><div class="viz-top"><span><b class="live-dot"></b> TABLEAU PUBLIC VIEW</span><span>INTERACTIVE · EMBEDDED</span></div><div class="viz-wrap"><iframe title="EV Market Performance Dashboard" src="https://public.tableau.com/views/Book1_17930371170050/EVMarketPerformaceDashboard?:showVizHome=no&:embed=true" loading="lazy" allowfullscreen></iframe></div></div>
+      <p class="viz-note">If the dashboard does not load, open it directly on Tableau Public. The workbook must remain published and publicly accessible for embedding.</p>
+    </section>
+    <section class="story-section">
+      <div class="story-copy"><div class="section-kicker">DATA STORY / 02</div><h2>From charts<br>to <span>decisions.</span></h2><p>A strong Tableau Story should guide viewers through the key questions in a logical sequence — market mix, manufacturer comparison, battery technology, range and customer ratings.</p><a class="text-link" href="https://public.tableau.com/app/profile/himanshi.ahuja1809/viz/Book1_17930371170050/EVMarketPerformaceDashboard?publish=yes" target="_blank" rel="noopener">View published Tableau work ↗</a></div>
+      <div class="story-steps"><div class="story-step"><span>01</span><div><h3>Market snapshot</h3><p>Which categories and manufacturers lead the available dataset?</p></div><b>↗</b></div><div class="story-step"><span>02</span><div><h3>Technology shift</h3><p>How do battery types and driving ranges compare?</p></div><b>↗</b></div><div class="story-step"><span>03</span><div><h3>Customer & geography</h3><p>What do ratings and manufacturing locations suggest?</p></div><b>↗</b></div></div>
+    </section>
+    <section class="stack-strip"><div><div class="section-kicker">BUILT WITH</div><h2>Tools behind the insight</h2></div><div class="stack-list"><span>SQL <small>DATA QUERIES</small></span><span>TABLEAU <small>VISUAL ANALYTICS</small></span><span>PYTHON <small>DATA PREP</small></span><span>FLASK <small>WEB INTEGRATION</small></span></div></section>
+    <section class="disclaimer"><span class="disclaimer-mark">i</span><p><b>Project integrity note</b><br>Use findings only after validating them against the final sourced dataset. The starter CSV is illustrative, not real market evidence. Document the source, cleaning steps and limitations in the final report.</p></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">E</span><span>EV<span class="muted">/</span>INTELLIGENCE</span></a><span>STUDENT DATA ANALYTICS PROJECT</span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a></footer>
+</body></html>
